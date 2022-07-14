@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.date{
+    background-image: url(./img/2.jpg);
+}
+
+#topbar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.brand{
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    margin: 40px;
+    font-size: 15px;
+    color: white;
+    align-items: center;
+}
+.search-title{
+    margin: 0 auto;
+    font-weight: 1000;
+    
+}
+.input-form{
+    margin-top: 20px
+}
+.input-group{
+    /* width: 100%; */
+}
+#major{
+    width: 300px;
+    height: 30px;
+    opacity: 0.8;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+.selectedSchool{
+    margin: 0 auto;
+    
+}
+#submit{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px white solid;
+}
+.select_notice{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 300px;
+    background-color: rgba(93, 87, 87, 0.479);
+    color: white;
+    border-radius: 5px;
+    border: 1px white solid;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.word{
+    margin: 10px;
+}
+.copyright{
+    margin-top: -40px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    background-color: rgb(220, 220, 220);
+}
